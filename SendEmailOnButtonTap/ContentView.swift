@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Button(action: {
+                EmailService.shared.sendEmail(subject: "hello", body: "this is body", to: "ongomobile@gmail.com") { (isWorked) in
+                    if !isWorked{ //if mail couldn't be presented
+                        // do action
+                    }
+                }
+            }, label: {
+                Text("Send Email")
+            })
+        }
     }
 }
 

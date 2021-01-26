@@ -11,6 +11,7 @@
 		10A7BCD325C0D60A00104360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7BCD225C0D60A00104360 /* ContentView.swift */; };
 		10A7BCD525C0D60C00104360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A7BCD425C0D60C00104360 /* Assets.xcassets */; };
 		10A7BCD825C0D60C00104360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A7BCD725C0D60C00104360 /* Preview Assets.xcassets */; };
+		10A7BCE125C0D6A300104360 /* EmailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A7BCE025C0D6A300104360 /* EmailService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		10A7BCD425C0D60C00104360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10A7BCD725C0D60C00104360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10A7BCD925C0D60C00104360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A7BCE025C0D6A300104360 /* EmailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				10A7BCD025C0D60A00104360 /* SendEmailOnButtonTapApp.swift */,
 				10A7BCD225C0D60A00104360 /* ContentView.swift */,
+				10A7BCE025C0D6A300104360 /* EmailService.swift */,
 				10A7BCD425C0D60C00104360 /* Assets.xcassets */,
 				10A7BCD925C0D60C00104360 /* Info.plist */,
 				10A7BCD625C0D60C00104360 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A7BCE125C0D6A300104360 /* EmailService.swift in Sources */,
 				10A7BCD325C0D60A00104360 /* ContentView.swift in Sources */,
 				10A7BCD125C0D60A00104360 /* SendEmailOnButtonTapApp.swift in Sources */,
 			);
